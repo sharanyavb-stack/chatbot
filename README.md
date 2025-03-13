@@ -1,5 +1,21 @@
 It is a [Next.js](https://nextjs.org/) project built on React and TailwindCSS.
 
+## Setup Instructions
+
+Before running the application, you need to configure your API key.
+
+### Steps to Update the API Key:
+
+1. **Locate the `.env` file:**
+   In the root of the project, you will find a file named `.env`. This file contains environment variables used by the application.
+
+2. **Edit the `.env` file:**
+   Open the `.env` file in a text editor and replace the placeholder for the API key with your actual API key.
+
+   Example:
+   ```plaintext
+   NEXT_PUBLIC_OPENAI_API_KEY=<your-api-key-here>
+
 ## Getting Started
 
 First, run the development server:
